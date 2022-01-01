@@ -131,8 +131,7 @@ network = OurNeuralNetwork()
 network.train(data, all_y_trues)
 
 #make prediction
-#kg=input("2 number dispart with "," ")
-#cm=input("2 number dispart with "," ")
+
 Amy = np.array([-6,-10])
 Oliver = np.array([15,1])
 if network.feedforward(Amy)>0.5:
@@ -148,3 +147,8 @@ else:
 
 print("Amy: %.3f" %network.feedforward(Amy),"and predicted sex:",Amy_sex)
 print("Oliver: %.3f" %network.feedforward(Oliver),"and predicted sex:",Oliver_sex)
+
+
+
+# reference from  an awosome SoftWare Engineering and the link to his website  deserve a click:
+# https://victorzhou.com/

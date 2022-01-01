@@ -1,8 +1,8 @@
 # AI-PYTHON
 
-Build a neuro network from zero
+Build a neural network from zero
 
-# neruo(h1,h2, o) matrix
+# neural(h1,h2, o) matrix
 ```   
    x1 x2 h1 h2  o  
 
@@ -30,6 +30,6 @@ git clone https://github.com/Vialiceq/AI-PYTHON.git
 ```
 then input in command line:
 ```
-python neruo-from-zero.py
+python neural-from-zero.py
 ```
 
