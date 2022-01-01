@@ -24,7 +24,7 @@ backpro algorithm
 L(w1,w2,w3,w4,w5,w6,b1,b2,b3)
 
 
-#usage
+# Usage
  ```
 git clone https://github.com/Vialiceq/AI-PYTHON.git
 ```
