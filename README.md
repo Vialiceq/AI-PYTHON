@@ -1,8 +1,8 @@
 # AI-PYTHON
 
 # neruo(h1,h2, o) matrix
-   x1 x2 h1 h2  o  
-     
+     x1 x2 h1 h2  o  
+
 x1 0  0  w1 w3  0  
 
 x2 0  0  w2 w4  0  
@@ -19,5 +19,12 @@ o  0  0  0  0   b3
 backpro algorithm
 
 L(w1,w2,w3,w4,w5,w6,b1,b2,b3)
+
+
+#usage
+
+git clone https://github.com/Vialiceq/AI-PYTHON.git
+
+python neruo-from-zero.py
 
 

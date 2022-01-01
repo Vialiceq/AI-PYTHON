@@ -129,3 +129,22 @@ all_y_trues = np.array([
 # Train our neural network!
 network = OurNeuralNetwork()
 network.train(data, all_y_trues)
+
+#make prediction
+#kg=input("2 number dispart with "," ")
+#cm=input("2 number dispart with "," ")
+Amy = np.array([-6,-10])
+Oliver = np.array([15,1])
+if network.feedforward(Amy)>0.5:
+    Amy_sex="female"
+else:
+    Amy_sex="male"
+
+if network.feedforward(Oliver)>0.5:
+    Oliver_sex="female"
+else:
+    Oliver_sex="male"
+
+
+print("Amy: %.3f" %network.feedforward(Amy),"and predicted sex:",Amy_sex)
+print("Oliver: %.3f" %network.feedforward(Oliver),"and predicted sex:",Oliver_sex)
