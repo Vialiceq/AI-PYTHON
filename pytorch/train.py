@@ -27,9 +27,8 @@ test_dataloader = DataLoader(test_set,64)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # creat model proto
-neural1 = neural()#
+neural1 = neural()
 neural1.to(device)
-
 
 #lose Func
 loss_fn = nn.CrossEntropyLoss()
