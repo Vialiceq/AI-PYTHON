@@ -53,7 +53,7 @@ for i in range(epoch):
     print("-------------round {} training strat---------".format(i+1))
     start_time = time.time()
     #train start
-    #neural1.train()
+    neural1.train()
     for data in train_dataloader:
         imgs, trargets = data
         imgs = imgs.to(device)
