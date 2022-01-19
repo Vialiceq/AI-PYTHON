@@ -24,7 +24,10 @@ backpro algorithm
 L(w1,w2,w3,w4,w5,w6,b1,b2,b3)
 
 
-# Usage
+# Usage 
+
+##  Build a neural network from zero 
+
  ```
 git clone https://github.com/Vialiceq/AI-PYTHON.git
 ```
@@ -32,4 +35,18 @@ then input in command line:
 ```
 python neural-from-zero.py
 ```
+
+## Explore the pytorch Convolution Neural Network(CNN) ---- CIFAR10 dataset.
+ ```
+git clone https://github.com/Vialiceq/AI-PYTHON.git
+```
+then input in command line (Windows 10) :
+```
+cd pytorch
+
+python test.py
+```
+
+you can train the model or modify the model by using google corlab :https://colab.research.google.com
+
 
